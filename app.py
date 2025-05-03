@@ -135,7 +135,9 @@ def monitor_loop():
                     room.updating = False
                     session.commit()
                     print(f"Uploaded {filepath} to S3 and updated occupancy: {occupancy}")
+                    print(s3_url)
             session.close()
+           
         time.sleep(1)
 
 # Start monitoring loop in a daemon thread
