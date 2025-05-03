@@ -1,0 +1,5 @@
+# Ignore virtual environment in the home directory
+/venv/
+
+# Ignore .env file in the home directory
+/.env
